@@ -11,18 +11,11 @@ export default function NativeAnimation() {
   );
 }
 
-const SIZE = 100.0;
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  square: {
-    width: SIZE,
-    height: SIZE,
-    backgroundColor: 'codetblue',
   },
 });

@@ -6,7 +6,7 @@ export default function NativeAnimation() {
 
     const [save, setSave] = useState(false)
     const firstRun = useRef(true)
-
+z
     const teste = () => {
         if (save == false) {
             setSave(true)
